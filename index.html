@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="left-half">
+            
+            <div class="logo">
+  <img src="images/icon.png" alt="logo">
+</div>
+
+            <div class="home-icon"><i class="fa-solid fa-house"></i></div>
+            <div class="search-bar">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" class="input-box" placeholder="What do you want to play?" >
+                <div class="browse"><i class="fa-solid fa-folder-open"></i></div>
+            </div>
+
+        </div>
+        <div class="right-half">
+            <div class="right-half-p1">
+                <p class="nav-text">Premium</p>
+                <p class="nav-text">Support</p>
+                <p class="nav-text">Download</p>
+            </div>
+            <div class="right-half-p2">
+                <div class="nav-text"> <i class=" fa-regular fa-circle-down"></i> Install App</div>
+                <div class="nav-text"> Sign Up</div>
+                <button class="login-btn">Log In</button>
+                <div class="theme"><i class="fa-solid fa-moon"></i></div>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- Main -->
+    
+    <div class="main">
+         <!-- main: left-part -->
+        <div class="main-left-part">
+            <div class="library">
+                <p>Your Library</p>
+                <div>+</div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <h4>Create your playlist</h4>
+                    <p>Its's easy, we'll help you.</p>
+                    <button>Create Playlist</button>
+                </div>
+                <div class="box">
+                    <h4>Lets find some podcast to follow</h4>
+                    <p>We'll keep you updated on new updates</p>
+                    <button>Browse podcasts</button>
+                
+                </div>
+            </div>
+        </div>
+        <!-- main :right part -->
+        <div class="main-right-part">
+            <div class="music-section">
+                <h2>Popular Songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="images/1.jpeg" alt="">
+                        <div class="music-play-btn"><i id  = "1" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Theera Ula</div>
+                        <div class="img-description">-by A R Rahman</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/2.jpg" alt="">
+                        <div class="music-play-btn"><i id = "2" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Stylish Thamizhachi</div>
+                        <div class="img-description">-by Yuvan Shankar Raja</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/3.jpg" alt="">
+                        <div class="music-play-btn"><i id = "3" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Open Arms</div>
+                        <div class="img-description">-by SZA</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/4.jpg" alt="">
+                        <div class="music-play-btn"><i id = "4" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">170CM</div>
+                        <div class="img-description">-by Paal Dabba</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/5.jpg" alt="">
+                        <div class="music-play-btn"><i id = "5" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Blank Space</div>
+                        <div class="img-description">-by Taylor Swift</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/6.jpg" alt="">
+                        <div class="music-play-btn"><i id = "6" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Doja</div>
+                        <div class="img-description">-by Cental Cee</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/7.jpeg" alt="">
+                        <div class="music-play-btn"><i id = "7" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Renegade</div>
+                        <div class="img-description">-by Aaryan</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/8.jpg" alt="">
+                        <div class="music-play-btn"><i id = "8" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Idhu Varai</div>
+                        <div class="img-description">-by Andrea</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/9.jpg" alt="">
+                        <div class="music-play-btn"><i id = "9" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">7 Rings</div>
+                        <div class="img-description">-by Ariana Grande</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/10.jpg" alt="">
+                        <div class="music-play-btn"><i id = "10" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Idhu Naal</div>
+                        <div class="img-description">-by A R Rahman</div>
+                    </div>   
+                    <div class="music-card">
+                        <img src="images/11.jpg" alt="">
+                        <div class="music-play-btn"><i id = "11" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Teddy Bear</div>
+                        <div class="img-description">-by Dhanush</div>
+                    </div> 
+                    <div class="music-card">
+                        <img src="images/12.jpg" alt="">
+                        <div class="music-play-btn"><i id = "12" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">If the World was Ending</div>
+                        <div class="img-description">-by Julia</div>
+                    </div> 
+                    <div class="music-card">
+                        <img src="images/13.jpg" alt="">
+                        <div class="music-play-btn"><i id = "13" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">34+35</div>
+                        <div class="img-description">-by Ariana Grande</div>
+                    </div> 
+                    <div class="music-card">
+                        <img src="images/14.jpg" alt="">
+                        <div class="music-play-btn"><i id = "14" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Nangaai</div>
+                        <div class="img-description">-by Harri Jayaraj</div>
+                    </div> 
+                    <div class="music-card">
+                        <img src="images/15.jpg" alt="">
+                        <div class="music-play-btn"><i id = "15" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Idhuvum Kadandhu Pogum</div>
+                        <div class="img-description">-by Sid Sriram</div>
+                    </div> 
+                </div>              
+            </div>
+            <div class="music-section">
+                <h2>Recomended Songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="images/16.jpg" alt="">
+                        <div class="music-play-btn"><i id = "16" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Sunsetz</div>
+                        <div class="img-description">-by Ciggerates After Sex</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/17.jpeg" alt="">
+                        <div class="music-play-btn"><i id = "17" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Malargal Ketten</div>
+                        <div class="img-description">-by A R Rahman</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/18.jpeg" alt="">
+                        <div class="music-play-btn"><i id = "18" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Nee Partha Vizhigal</div>
+                        <div class="img-description">-by Anirudh</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/19.jpg" alt="">
+                        <div class="music-play-btn"><i id = "19" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Under The Influence</div>
+                        <div class="img-description">-by Chris Brown</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/20.jpg" alt="">
+                        <div class="music-play-btn"><i id = "20" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Thank U, next</div>
+                        <div class="img-description">-by Ariana Grande</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/21.jpg" alt="">
+                        <div class="music-play-btn"><i id = "21" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Makkayala</div>
+                        <div class="img-description">-by Vijay Antony</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/22.jpg" alt="">
+                        <div class="music-play-btn"><i id = "22" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Cardigan</div>
+                        <div class="img-description">-by Taylor Swift</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/23.jpg" alt="">
+                        <div class="music-play-btn"><i id = "23" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">So High</div>
+                        <div class="img-description">-by Doja Cat</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/24.jpg" alt="">
+                        <div class="music-play-btn"><i id = "24" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Naan Than Inge Visiri</div>
+                        <div class="img-description">-by Sid Sriram</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/25.jpg" alt="">
+                        <div class="music-play-btn"><i id = "25" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Oh Baby Girl</div>
+                        <div class="img-description">-by Hemachandra</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/26.jpg" alt="">
+                        <div class="music-play-btn"><i id = "26" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Yaaro Ivan</div>
+                        <div class="img-description">-by Gv Prakash</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/27.jpg" alt="">
+                        <div class="music-play-btn"><i id = "27" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Wildflower</div>
+                        <div class="img-description">-by Billie Eilish</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/28.jpeg" alt="">
+                        <div class="music-play-btn"><i id = "28" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Jalsa Pannungada</div>
+                        <div class="img-description">-by Yuvan</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/29.jpg" alt="">
+                        <div class="music-play-btn"><i id = "29" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Nenjukulle</div>
+                        <div class="img-description">-by Ranjith</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="images/30.jpg" alt="">
+                        <div class="music-play-btn"><i id = "30" class=" playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Nee Kavithaigala</div>
+                        <div class="img-description">-by Pradeep Kumar</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Recently Played -->
+<div class="music-section">
+    <h2>Recently Played</h2>
+
+    <div id="recentList" class="songs">
+        <!-- JS will insert recently played songs here -->
+    </div>
+</div>
+
+        </div>
+    </div>
+    <!-- player -->
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="images/1.jpeg" alt="">
+            <div>
+            <div class="img-title-info">Theera Ula</div>
+            <div class="img-des-info">-by A R Rahman</div>
+            </div>
+        </div>
+        <div class="music-controller">
+            <div class="player">
+                <div id="shuffle"> <i class ="player-btns fa-solid fa-shuffle"></i></div>
+                <div id="backward"> <i class ="player-btns fa-solid fa-backward-step"></i></div>
+                <div> <i  id="play" class ="player-btns fa-solid fa-circle-play"></i></div>
+                <div id="forward"> <i class ="player-btns fa-solid fa-forward-step"></i></div>
+                <div id="repeat"> <i class ="player-btns fa-solid fa-repeat"></i></div>
+            </div>
+            <div class="progress-container">
+    <input type="range" id="progressBar" value="0">
+
+    <div class="time-row">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+    </div>
+</div>
+
+        </div>
+        <div class="volume-control">
+        <i id="volumeIcon" class="fa-solid fa-volume-high"></i>
+        <input type="range" id="volumeBar" min="0" max="100" value="70">
+        </div>
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var icon = document.getElementsByClassName("theme")[0];
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            } else {
+                icon.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            }
+        }
+        </script>
+</body>
+</html>
